@@ -585,7 +585,7 @@ elif [ "$ROOT_SEL" = "kernelsu" ]; then
     name1="-with-$ROOT_SEL-$KERNELSU_VER"
 fi
 if [ -z "$HAS_GAPPS" ]; then
-    name2="-FullGApps"
+    name2="-full"
 else
     name2=-GApps-${ANDROID_API_MAP[$ANDROID_API]}
 fi
